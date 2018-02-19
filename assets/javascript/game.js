@@ -15,13 +15,14 @@ document.onkeyup = function(event){
     userGuess.push(guesses);
 
     for(var i = 0; i++;){
-        userGuess[i] = "_";
+        userGuess = [i];
     }
     
     
-    if ((userGuess === computerGuess)){
+    if ((userGuess[i] === computerGuess)){
         wins++;
         guessesLeft = 10;
+        userGuess.length = 0;
         }
         else if ((userGuess !== computerGuess)){
             guessesLeft--;
