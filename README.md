@@ -4,4 +4,4 @@ An attempt at building out a basic psychic game.  The computer will pick a rando
 
 # To Do
 
-Refactor the code to get to actually work!
+Refactor the code to get it to actually work!
